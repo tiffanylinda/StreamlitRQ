@@ -50,7 +50,7 @@ option_key = st.sidebar.radio(
 )
 
 st.title(f"Titanic Dataset Explorer: {analysis_options[option_key]}")
-
+st.header("Tiffany's very own Titantic dataset analysis")
 # 3. Main Page Logic based on Selection
 if option_key == "1":
     # --- Analysis 1: Survival Rate by Class (Bar Chart) ---
